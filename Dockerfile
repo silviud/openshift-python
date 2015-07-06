@@ -7,7 +7,7 @@ RUN yum upgrade -y
 RUN yum install -y python-setuptools
 RUN yum install -y python-pip
 RUN yum install -y git
-RUN yum clean all
+RUN yum clean all -y
 RUN pip install flask
 
 
