@@ -1,6 +1,6 @@
 # flask app without virtualenv
 
-FROM silviudicu:openshift
+FROM silviudicu/openshift
 
 EXPOSE 5000
 CMD []
